@@ -13,11 +13,28 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body class="">
+    <body class="bg-black overflow-hidden">
             <div class="bg-[#FFFFFF] py-5 pl-7 md:pl-20 lg:pl-28 font-bold text-xl w-full">WELCOME TO SAMBAG2 ! </div>
 
-            <div class="bg-">
+            <div class="flex justify-center items-center h-screen ">
+                <div class="bg-green-500 mb-10 h-[32rem] w-full max-w-sm md:max-w-[30rem] lg:max-w-custom  rounded-[1.5rem]">
+                    <div class="flex flex-col gap-14 justify-center items-center"> 
+                        <div class="bg-white h-[10rem] w-[10rem] rounded-full mt-10">
+                            <img src="" alt="">
+                        </div> 
+                        <form class="flex flex-col gap-10" action="">
+                            <input id="username" type="text" class="w-[15rem] h-[2.5rem] rounded-lg bg-orange-100" placeholder=" Enter username">
+                            <input id="password" type="text" class="w-[15rem] h-[2.5rem] rounded-lg bg-orange-100" placeholder=" Enter password">
 
+                            <div class="flex justify-center">
+                                <button type="submit" class="bg-orange-100 rounded-md py-2 px-6">Log in</button>
+                            </div>
+
+            
+                        </form>  
+                       
+                    </div>
+                </div>
             </div>
     </body>
 
