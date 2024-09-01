@@ -16,8 +16,8 @@
     <body class="">
             <div class="bg-[#FFFFFF] py-5 pl-7 md:pl-20 lg:pl-28 font-bold text-xl w-full">WELCOME TO SAMBAG2 ! </div>
 
-            <div>
-                
+            <div class="bg-">
+
             </div>
     </body>
 
